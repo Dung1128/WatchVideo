@@ -3,6 +3,8 @@ package vn.agiletech.watchvideo;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.tanguyantoine.react.MusicControl;
+import com.brentvatne.react.ReactVideoPackage;
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.reactnative.photoview.PhotoViewPackage;
@@ -27,6 +29,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new MusicControl(),
+            new ReactVideoPackage(),
             new SplashScreenReactPackage(),
             new VectorIconsPackage(),
             new PhotoViewPackage(),

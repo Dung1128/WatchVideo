@@ -1,7 +1,7 @@
 import Markets from './container/Markets';
 import ChangeLogs from './container/ChangeLogs';
 import VIPGroups from './container/VIPGroups';
-// import Gallery from './container/Gallery';
+import Home from './container/Home';
 
 export default {
   markets: {
@@ -10,6 +10,13 @@ export default {
     headerType: 'home',
     footerType: 'none',
     cache: true
+  },
+  home: {
+    title: 'Home',
+    Page: Home,
+    headerType: 'home',
+    footerType: 'true',
+    cache: false
   },
   changeLogs: {
     title: 'ChangeLogs',

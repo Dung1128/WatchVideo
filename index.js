@@ -17,7 +17,7 @@ class Root extends React.Component {
 
   componentDidMount() {
     configStore(store => {
-      store.dispatch(resetTo('markets'));
+      store.dispatch(resetTo('home'));
       this.store = store;
       this.setState({ isLoading: false }, () => this.forceUpdate());
     });

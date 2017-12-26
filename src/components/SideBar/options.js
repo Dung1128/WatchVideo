@@ -1,6 +1,11 @@
 export default {
   listItems: [
     {
+      name: 'Home',
+      route: 'home',
+      icon: 'ios-home'
+    },
+    {
       name: 'Markets',
       route: 'markets',
       icon: 'ios-podium'
